@@ -1,0 +1,5 @@
+[jenkins]
+10.0.1.101 ansible_ssh_private_key_file='upgrad.pem' ansible_ssh_user=ubuntu
+
+[app]
+10.0.1.237 ansible_ssh_private_key_file='upgrad.pem' ansible_ssh_user=ubuntu
