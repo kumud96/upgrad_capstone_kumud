@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "upgrad-kumud-capstone"
+    bucket = "s3-capstone-kumud"
     key    = "path/state"
     region = "us-east-1"
   }
@@ -13,6 +13,6 @@ terraform {
 }
 provider "aws" {
   region = "us-east-1"
-  access_key = "AKIASRPUN7KG33CCXYPI"
-  secret_key = "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"
+  access_key = "AKIAVXOFDIQUXD5YPYU3"
+  secret_key = "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"
 }
